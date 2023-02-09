@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>DISBIOSIS</title>
+</head>
+
+<body>
+
+  <header>
+
+    <h2><a href="index.html"> Disbiosis </a> </h2>
+    <p> post punk/crust </p>
+    <nav>
+      <ul>
+        <li><a href="about_us.html">about us</a> </li>
+        <li><a href="merch.html">merch</a> </li>
+        <li><a href="contact.html">contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1> contact </h1>
+    <article>
+      <h2> contact </h2>
+      <article>
+        <form action="/sendData" method="post">
+          <label for="txtname">Όνομα: </label>
+          <input type="text" id="txtname" name="name" minlength="3"
+          maxlength="20" required placeholder="Το όνομα σου" autocomplete="on">
+          (*)
+          <br>
+          <label for="txtLname">Επίθετο: </label>
+          <input type="text" id="txtLname" name="name" minlength="3"
+          maxlength="20" required placeholder="Το επίθετο σου" autocomplete="on">
+          (*)
+          <br>
+          <label for="txtEmail">Email: </label>
+          <input type="email" id="txtEmail" name="email"
+           required placeholder="Το email σου" maxlength="30">
+           (*)
+          <br>
+          <label for="txtTel">Τηλέφωνο: </label>
+          <input type="tel" id="txtTel" name="phone" >
+          <br />
+          <label for="txtMsg">Μήνυμα: </label>
+          <textarea type="text" id="txtMsg" name="message" cols="40" rows="6" required></textarea>
+          (*)
+
+          <br>
+          (*)Τα πεδία είναι υποχρεωτικά
+          <br>
+          <input type="submit" value="Αποστολή">
+           <input type="reset" value="Καθαρισμός" />
+          </form>
+        </article>
+    </article>
+  </main>
+  <aside>
+    <h1> music </h1>
+    <p> links yt</p>
+    <p> links bandcamp </p>
+  </aside>
+  <footer>
+    <p> Dibiosis</p>
+    <p> 2022</p>
+  </footer>
+
+</body>
+
+</html>
